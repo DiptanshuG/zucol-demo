@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Here is a demo video of the project:
 
-[![Watch the video](assets/thumbnail.png)](assets/videos/demo.mp4)
+[![Watch the video](src/assets/thumbnail.png)](src/assets/videos/demo.mp4)
 
-You can also find the video directly at: [assets/videos/demo.mp4](assets/videos/demo.mp4)
+You can also find the video directly at: [src/assets/videos/demo.mp4](src/assets/videos/demo.mp4)
 
 
 
