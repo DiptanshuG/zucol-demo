@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+Here is a demo video of the project:
+
+<video width="600" controls>
+  <source src="/assets/videos/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
