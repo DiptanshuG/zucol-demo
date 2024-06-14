@@ -32,6 +32,7 @@ const Offerings: React.FC = () => {
           {offeringsData.map((offering, index) => (
             <OfferingCard
               key={index}
+              index={index}
               title={offering.title}
               description={offering.description}
               imageUrl={offering.imageUrl}

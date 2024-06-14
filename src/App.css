@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+@keyframes bubble {
+  0% {
+    transform: scale(0);
+    background-color: #F4F4F4;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #07BB8F;
+  }
+}
+
+.bubble-transition {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.bubble-transition:hover {
+  animation: bubble 0.3s forwards;
+}

@@ -7,7 +7,7 @@ import icon from "../../../assets/svg/hamburger.svg"
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white bg-opacity-30 backdrop-blur-md fixed w-full z-50 shadow-md">
+    <header className="bg-white md:rounded-full md:mt-2 md:p-2 bg-opacity-30 backdrop-blur-md fixed w-full z-50 shadow-md">
       <Container>
         <div className="flex justify-between items-center md:px-0 px-3 py-4">
           <Logo />
