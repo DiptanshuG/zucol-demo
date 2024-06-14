@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
     <footer className="bg-white p-8">
       <Container>
         <div className="flex flex-col items-center">
-          <div className="w-full flex flex-col md:flex-row justify-between items-center mb-8">
+          <div className="w-full flex flex-col md:flex-row justify-between items-start mb-8">
             <FooterLogo />
             <FooterNavLinks />
             <FooterCTA />

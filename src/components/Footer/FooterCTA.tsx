@@ -1,12 +1,16 @@
 import React from 'react';
+import Button from '../ui/Button';
 
 const FooterCTA: React.FC = () => {
   return (
     <div className="text-center md:text-right">
       <p className="mb-2">Want to Connect and Partner for Success?</p>
-      <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
-        Enquire Now
-      </button>
+      <div className='flex justify-start items-start'>
+        <Button variant="filled" className="rounded-full bg-[#07BB8F] text-white">        Enquire Now
+        </Button>
+      </div>
+
+
     </div>
   );
 };
