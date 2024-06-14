@@ -6,7 +6,7 @@ type NavLinkProps = {
 
 const NavLink: React.FC<NavLinkProps> = ({ text }) => {
   return (
-    <a href="#" className="text-sm text-gray-700 hover:text-gray-900">
+    <a href="#" className="text-sm text-[#202020] hover:text-[#202020]">
       {text}
     </a>
   );
