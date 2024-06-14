@@ -17,7 +17,7 @@ const socialIcons = [
 
 const FooterSocialIcons: React.FC = () => {
   return (
-    <div className="flex justify-start w-full space-x-4 mt-4 md:mt-0">
+    <div className="flex justify-around md:justify-start w-full space-x-4 mt-4 md:mt-0">
       {socialIcons.map((social, index) => (
         <div key={index} className={`flex items-center ${index < socialIcons.length - 1 ? 'border-r-2 border-gray-400 pr-4' : ''}`}>
           <Link to="#">
@@ -37,3 +37,6 @@ const FooterSocialIcons: React.FC = () => {
 };
 
 export default FooterSocialIcons;
+
+
+

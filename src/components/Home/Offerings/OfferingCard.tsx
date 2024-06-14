@@ -9,7 +9,7 @@ type OfferingCardProps = {
 
 const OfferingCard: React.FC<OfferingCardProps> = ({ title, description, imageUrl }) => {
   return (
-    <div className="w-64 p-4 bg-white rounded-lg relative">
+    <div className="w-64 md:p-4 bg-white rounded-lg relative">
       <div className="relative">
         <img src={imageUrl} alt={title} className=" w-full h-40 object-cover" />
         <div className="absolute bottom-[-36px] right-[-10px] flex items-center justify-center bg-[#F4F4F4] rounded-full w-12 h-12 shadow-lg">

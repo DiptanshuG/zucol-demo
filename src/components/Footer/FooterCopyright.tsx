@@ -3,7 +3,7 @@ import React from 'react';
 const FooterCopyright: React.FC = () => {
   return (
     <p className="text-[#000000] text-center text-[16px] md:text-left">
-      &copy; 2024 Altron Logistics Solutions Pvt. Ltd.
+      &copy; ©2024 Magenta EV Solutions Pvt. Ltd.
     </p>
   );
 };
